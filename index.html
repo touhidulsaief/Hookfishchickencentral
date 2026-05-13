@@ -96,8 +96,8 @@ main { margin-top: 80px; }
 }
 
 .hero-logo {
-  width: 120px;
-  height: 120px;
+  width: 220px;
+  height: 220px;
   margin-bottom: 30px;
 }
 
@@ -108,7 +108,7 @@ main { margin-top: 80px; }
 }
 
 @media (max-width: 768px) {
-  .hero-logo { width: 100px; height: 100px; margin-bottom: 20px; }
+  .hero-logo { width: 160px; height: 160px; margin-bottom: 20px; }
 }
 
 .hero-location { 
@@ -728,6 +728,46 @@ footer { background: #111; color: white; padding: 40px 60px; }
 }
 
 /* MODAL STYLES */
+.delivery-logo{
+    width: 140px;
+    margin: 20px auto;
+}
+
+.delivery-logo img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 768px){
+
+    .delivery-logo{
+        width: 90px;
+    }
+
+    .modal-content{
+        width: 92%;
+        padding: 40px 20px;
+        max-height: 95vh;
+        overflow-y: auto;
+    }
+
+    .delivery-headline{
+        font-size: 44px;
+        line-height: 1.05;
+    }
+
+    .delivery-subtext{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .delivery-btn{
+        font-size: 18px;
+        padding: 18px;
+    }
+
+}
 .modal { 
   display: none; 
   position: fixed; 
@@ -1139,6 +1179,9 @@ footer { background: #111; color: white; padding: 40px 60px; }
     
     <div class="delivery-section">
       <div class="delivery-label">DELIVERY AVAILABLE NOW</div>
+      <div class="delivery-logo">
+        <img src="image/logo.jpg" alt="Hook Logo">
+      </div>
       
       <h2 class="delivery-headline">Hungry?<br>Order Now —<br>Ready in Minutes</h2>
       
